@@ -1,0 +1,34 @@
+#login-content{display:inline-block; vertical-align:baseline; position:relative; width:400px; background:rgba(255,255,255,1); margin-top:-150px;}
+#login-content:before{-webkit-transform:rotate(-3deg); -moz-transform:rotate(-3deg); -ms-transform:rotate(-3deg); -o-transform:rotate(-3deg); transform:rotate(-3deg);}
+#login-content:after{ -webkit-transform:rotate(2deg); -moz-transform:rotate(2deg); -ms-transform:rotate(2deg); -o-transform:rotate(2deg); transform:rotate(2deg);}
+#login-content:after,#login-content:before{content:""; display:block; position:absolute; width:100%; height:100%; left:-1px; background:rgba(255,255,255,1);  border:1px solid #dcdcdc; top:0px;}
+
+#login-box{position:relative; width:100%; z-index:3; padding:45px 40px; border:1px solid #dcdcdc; background:rgba(255,255,255,1);}
+#login-content form{display:inline-block; width:100%;}
+#login-content h1 { position:relative; color:#7E7E7E; font:bold 25px Helvetica, Arial, sans-serif; letter-spacing:-0.05em; line-height:20px; text-align:center; vertical-align:baseline; margin-bottom:50px; }
+#login-content h1:before {
+  background: rgb(126,126,126);
+  background: -moz-linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: -webkit-linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: -o-linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: -ms-linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  left: 0;
+}
+#login-content h1:after {
+  background: rgb(126,126,126);
+  background: -moz-linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: -webkit-linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(126,126,126,1) 100%);
+  background: -o-linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: -ms-linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(126,126,126,1) 100%);
+  right: 0;
+}
+#login-content h1:before, #login-content h1:after { content:""; height:1px; position:absolute; top:10px; width:27%; }
+#login-box p{position:relative;}
+#login-box p i{position:absolute; top:10px; left:10px;}
+#login-box p i.icon-yonghu,#login-box p i.icon-3{font-size:25px; color:#7E7E7E;}
+#login-content input{width:100%; border:0px; outline:none; margin-bottom:30px; border:1px solid #dcdcdc; border-radius:3px; padding:15px 10px 15px 40px; }
+#login-content button{ border:0px; outline:none; border-radius:3px; padding:9px 35px; font-weight:600; font-size:14px; cursor:pointer; background-color:#049ec4; color:#fff;}
+#login-content button:hover{background-color:#0397bb; color:#f4f4f4; }
+#fpd{position:absolute; right:0px; top:7px; font-size:14px; color:#049ec4; text-decoration:underline;}
